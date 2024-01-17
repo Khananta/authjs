@@ -1,5 +1,5 @@
 const { status } = require('server/reply')
-const User = require('../models/User')
+const User = require('../models/userModel')
 const { raw } = require('express')
 
 module.exports = {
